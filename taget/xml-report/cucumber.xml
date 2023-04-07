@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="23.367" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Navigations" name="navigations test" time="22.993">
+<system-out><![CDATA[
+Given I navigate to "https://www.google.com"................................passed
+]]></system-out>
+</testcase>
+</testsuite>
