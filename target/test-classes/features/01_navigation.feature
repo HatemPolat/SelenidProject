@@ -9,4 +9,4 @@ Feature: Navigations
     And I navigate back
     And  I navigate forward
     And I navigate refresh the Page
-    Then  I hold the browser open
+    # Then  I hold the browser open
