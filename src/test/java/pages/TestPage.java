@@ -18,6 +18,8 @@ public SelenideElement SubmitButton=$(By.xpath("//*[@type='submit']"));
 public SelenideElement LogoutButton=$(By.partialLinkText("Logout"));
 
 
+
+
 }
 
 
