@@ -10,7 +10,7 @@ public class GooglePage {
 
     public SelenideElement googleSearchbox=$(By.name("q"));
     public SelenideElement resultSection =$(By.id("result-stats"));
-    public SelenideElement ElementCollection =$$(By.xpath("")));
+
 
 
 
