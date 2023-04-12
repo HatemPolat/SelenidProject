@@ -16,7 +16,10 @@ public SelenideElement password=$(By.id("exampleInputPassword1"));
 public SelenideElement SubmitButton=$(By.xpath("//*[@type='submit']"));
 
 public SelenideElement LogoutButton=$(By.partialLinkText("Logout"));
-
+//--------------------------------------------------------------------------------------------------
+  //lOCATING CHECKBOX
+    public  SelenideElement checkbox1=$(By.id("box1"));
+    public SelenideElement checkbox2=$(By.id("box2"));
 
 
 
