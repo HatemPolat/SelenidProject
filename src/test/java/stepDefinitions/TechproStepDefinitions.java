@@ -19,6 +19,10 @@ public class TechproStepDefinitions {
 
 
     }
+    @Given("I enter  checkboxes menu")
+    public void i_enter_checkboxes_menu() {
+       testPage.CheckBoxes.click();
+    }
     @Given("I click on {string} if not already selected")
     public void i_click_on_if_not_already_selected(String string) {
 

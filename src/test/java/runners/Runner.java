@@ -17,8 +17,8 @@ import org.junit.runner.RunWith;
         monochrome = true,
         features = "./src/test/resources/features",
         glue = {"stepDefinitions"},
-        tags="@Checkbox",
-        dryRun =false
+        tags="@assertions2",
+        dryRun =true
 
 
 

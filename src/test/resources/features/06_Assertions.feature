@@ -6,3 +6,4 @@ Feature:Assertions2
     And      I search for "Tesla"
     And     verify the result should contain "Tesla"
     Then      verify the result should contain "About" keyword
+    Then the firs result in the page sections should contains "Tesla"

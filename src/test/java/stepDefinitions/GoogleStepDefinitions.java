@@ -52,5 +52,9 @@ sleep(10000);
     public void verify_the_result_should_contain_keyword(String string) {
    googlePage.resultSection.getText();
     }
+    @Then("the firs result in the page sections should contains {string}")
+    public void the_firs_result_in_the_page_sections_should_contains(String string) {
+
+    }
 
 }

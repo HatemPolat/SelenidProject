@@ -6,4 +6,5 @@ Feature: radioButton and Checkbox
     And    I enter UserName
     And    I enter Password
     And    I enter submit Button
+    And    I enter  checkboxes menu
     And    I click on "Checkbox 1" if not already selected
