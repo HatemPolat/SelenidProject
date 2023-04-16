@@ -28,7 +28,10 @@ sleep(10000);
     }
     @Given("I navigate forward")
     public void i_navigate_forward() {
-       forward();
+
+        // SITEYE GITMEK ICIN KULLANDIK
+        //
+        forward();
     }
     @Given("I navigate refresh the Page")
     public void i_navigate_refresh_the_page() {
