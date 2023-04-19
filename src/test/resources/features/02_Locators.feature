@@ -7,4 +7,4 @@ Feature: locators feature
     And    I enter Password
     And    I enter submit Button
     And    i enter logout
-    Then  I hold the browser open
+    Then   I hold the browser open
