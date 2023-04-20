@@ -22,6 +22,8 @@ public SelenideElement LogoutButton=$(By.partialLinkText("Logout"));
     public SelenideElement  CheckBoxes=$(By.xpath("//*[text()='Checkboxes']"));
     public SelenideElement  red=$(By.id("red"));
     public SelenideElement  yellow=$(By.id("yellow"));
+    public SelenideElement  basketball=$(By.id("basketball"));
+    public SelenideElement  hockey=$(By.id("hockey"));
 
 
 

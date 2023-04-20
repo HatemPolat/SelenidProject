@@ -14,7 +14,13 @@ Feature: radioButton and Checkbox
 
     @radio
     Scenario: Radio Buttons
-      Given    I navigate to "https://testcenter.techproeducation.com/index.php?page=form-authentication"
+      Given    I navigate to "https://testcenter.techproeducation.com/index.php?page=radio-buttons"
 
       And    I click on "Red" if not already selected
       And    I click on "Yellow" if not already selected
+      @Football
+      Scenario: Select your favorite sport
+        Given    I navigate to "https://testcenter.techproeducation.com/index.php?page=radio-buttons"
+        And     I click on "Basketball" if not already selected
+        And     I click on "Hockey" if not already selected
+

@@ -21,5 +21,6 @@ Feature: radioButton and Checkbox
       @Football
       Scenario: Select your favorite sport
         Given    I navigate to "https://testcenter.techproeducation.com/index.php?page=radio-buttons"
-        And      I
+        And     I click on "Basketball" if not already selected
+        And     I click on "Hockey" if not already selected
 

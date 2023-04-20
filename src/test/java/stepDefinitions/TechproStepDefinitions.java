@@ -40,8 +40,13 @@ public class TechproStepDefinitions {
             testPageCenter.yellow.click();
             testPageCenter.yellow.shouldBe(checked);
 
-        }
+        }if (string.equals("Basketball") && !testPageCenter.basketball.isSelected()){
+            testPageCenter.basketball.click();
+            testPageCenter.basketball.shouldBe(checked);
 
-    }
+    }if (string.equals("Hockey") && !testPageCenter.hockey.isSelected()){
+            testPageCenter.hockey.click();
+            testPageCenter.hockey.shouldBe(checked);
 
 }
+    }}
