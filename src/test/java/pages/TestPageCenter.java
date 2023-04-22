@@ -17,7 +17,9 @@ public SelenideElement SubmitButton=$(By.xpath("//*[@type='submit']"));
 
 public SelenideElement LogoutButton=$(By.partialLinkText("Logout"));
 //--------------------------------------------------------------------------------------------------
-  //lOCATING CHECKBOX
+
+    //lOCATING CHECKBOX
+
     public  SelenideElement checkbox1=$(By.id("box1"));
     public SelenideElement  checkbox2=$(By.id("box2"));
     public SelenideElement  CheckBoxes=$(By.xpath("//*[text()='Checkboxes']"));
@@ -25,6 +27,7 @@ public SelenideElement LogoutButton=$(By.partialLinkText("Logout"));
     public SelenideElement  yellow=$(By.id("yellow"));
     public SelenideElement  basketball=$(By.id("basketball"));
     public SelenideElement  hockey=$(By.id("hockey"));
+
     //DropDownElements
     public SelenideElement  simpledropDown=$(By.id("dropdown"));
     public SelenideElement  year=$(By.id("year"));
@@ -36,6 +39,11 @@ public SelenideElement LogoutButton=$(By.partialLinkText("Logout"));
 
     public SelenideElement  alertjspromt=$(By.xpath("(//*[@class='btn btn-primary'])[3]"));
     public SelenideElement  sonuc=$("#result");
+
+    //frame
+
+    public  SelenideElement techproedulink=$(By.xpath("//a[@type='button']"));
+
 
 
 

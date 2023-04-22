@@ -1,12 +1,16 @@
 package stepDefinitions;
 
 import com.codeborne.selenide.Condition;
+import io.cucumber.core.options.CurlOption;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import pages.TestPageCenter;
 
-import static com.codeborne.selenide.Selenide.sleep;
+
+import java.time.Duration;
+
 import static com.codeborne.selenide.Selenide.switchTo;
+import static com.codeborne.selenide.WebDriverRunner.url;
 import  static  java.lang.Thread.sleep;
 
 
@@ -55,9 +59,9 @@ public class TestStepDefinitions {
     @And("kullanici alerte {string} metnini yazar")
     public void kullaniciAlerteMetniniYazar(String arg0) throws InterruptedException {
         switchTo().alert().sendKeys(arg0);
-  Thread.sleep(3000);
+  Thread.sleep(8000);
         switchTo().alert().accept();
-        Thread.sleep(3000);
+        Thread.sleep(8000);
 
 
     }
@@ -67,4 +71,27 @@ public class TestStepDefinitions {
         testPageCenter.sonuc.shouldHave(Condition.text(yazi));
 
     }
+
+    @And("User switch to frame {int}")
+    public void userSwitchToFrame(int frame) {
+        switchTo().frame(frame-1);
+    }
+
+    @And("User click to back to techproeducation")
+    public void userClickToBackToTechproeducation() throws InterruptedException {
+        testPageCenter.techproedulink.click();
+        System.out.println("Techpro linkine tiklandi ve yeni Pencere acildi");
+        Thread.sleep(3000);
+        System.out.println("Sayfa 1 Url:"+url());
+    }
+
+    @And("switch to window {int}")
+    public void switchToWindow(int targetWindow) throws InterruptedException {
+
+        switchTo().window(targetWindow-1);
+        System.out.println("Yeni pencereye gecildi: "+url());
+
+        sleep(3000);
+    }
+
 }

@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="22.436" tests="1" skipped="0" failures="0" errors="0">
-<testcase classname="" name="TC01 Alerts" time="22.02">
+<testsuite name="Cucumber" time="30.05" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Iframe" name="TC01 Ifarme learning" time="29.536">
 <system-out><![CDATA[
-Given I navigate to "https://testcenter.techproeducation.com/index.php?page=javascript-alerts".passed
-And kullanici alert promt buttununa tiklar..................................passed
-And kullanici alerte "Hello" metnini yazar..................................passed
-And kullanici sonucun "Hello" icerdigini dogrular...........................passed
+Given I navigate to "https://testcenter.techproeducation.com/index.php?page=iframe".passed
+And User switch to frame 1..................................................passed
+And User click to back to techproeducation..................................passed
+And switch to window 2......................................................passed
+Then I hold the browser open................................................passed
 ]]></system-out>
 </testcase>
 </testsuite>
