@@ -1,5 +1,6 @@
 package pages;
 import com.codeborne.selenide.SelenideElement;
+import com.codeborne.selenide.conditions.CssClass;
 import org.openqa.selenium.By;
 
 import static com.codeborne.selenide.Selenide.*;
@@ -24,6 +25,17 @@ public SelenideElement LogoutButton=$(By.partialLinkText("Logout"));
     public SelenideElement  yellow=$(By.id("yellow"));
     public SelenideElement  basketball=$(By.id("basketball"));
     public SelenideElement  hockey=$(By.id("hockey"));
+    //DropDownElements
+    public SelenideElement  simpledropDown=$(By.id("dropdown"));
+    public SelenideElement  year=$(By.id("year"));
+    public SelenideElement  month=$(By.id("month"));
+    public SelenideElement  day=$(By.id("day"));
+    public SelenideElement  stateselection=$(By.id("state"));
+
+    //Alerts
+
+    public SelenideElement  alertjspromt=$(By.xpath("(//*[@class='btn btn-primary'])[3]"));
+    public SelenideElement  sonuc=$("#result");
 
 
 

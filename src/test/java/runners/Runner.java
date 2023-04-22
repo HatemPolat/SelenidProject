@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
         monochrome = true,
         features = "./src/test/resources/features",
         glue = {"stepDefinitions"},
-        tags="@radio",
+        tags="@allerts",
         dryRun =false
 
 

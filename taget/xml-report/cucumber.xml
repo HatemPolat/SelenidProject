@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="33.088" tests="1" skipped="0" failures="0" errors="0">
-<testcase classname="radioButton and Checkbox" name="Radio Buttons" time="32.592">
+<testsuite name="Cucumber" time="22.436" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="" name="TC01 Alerts" time="22.02">
 <system-out><![CDATA[
-Given I navigate to "https://testcenter.techproeducation.com/index.php?page=radio-buttons".passed
-And I click on "Red" if not already selected................................passed
-And I click on "Yellow" if not already selected.............................passed
+Given I navigate to "https://testcenter.techproeducation.com/index.php?page=javascript-alerts".passed
+And kullanici alert promt buttununa tiklar..................................passed
+And kullanici alerte "Hello" metnini yazar..................................passed
+And kullanici sonucun "Hello" icerdigini dogrular...........................passed
 ]]></system-out>
 </testcase>
 </testsuite>
